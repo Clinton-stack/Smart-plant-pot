@@ -156,7 +156,7 @@ void loop() {
 
 
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
-  if (buttonState == LOW) {
+  if (buttonState == 0) {
     Serial.println(" button was pushed");
     Serial.println(" button state:" + buttonState);
     Serial.println("button pin " + buttonPin);
